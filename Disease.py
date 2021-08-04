@@ -28,7 +28,7 @@ y_train = train.insomnia
 x_train = train.drop('insomnia', axis = 1)
 
 from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier #algorithm
 from sklearn.metrics import accuracy_score
 
 clf_rf = RandomForestClassifier(random_state=43)      
